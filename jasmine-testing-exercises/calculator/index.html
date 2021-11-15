@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Load Calculator</title>
+    
+    <link rel="stylesheet" href="calculator.css"> <link
+  rel="stylesheet"
+  type="text/css"
+  href="./jasmine/lib/jasmine-3.10.1/jasmine.css"
+/>
+  </head>
+  <body>
+    <header>
+      <h1>Loan Calculator 💰💲💵</h1>
+    </header>
+    <section class="calc_container">
+      <form id="calc_form">
+        <label>
+          Loan Amount
+          <input type="text" id="loan_amount">
+        </label>
+        <label>
+          Term in Years
+          <input type="text" id="loan_years">
+        </label>
+        <label>
+          Yearly Rate
+          <input type="text" id="loan_rate">
+        </label>
+        <button type="submit" id="calc_submit">Calculate</button>
+      </form>
+      <div>
+        <h3>Monthly Payment<h3>
+        <h4 id="monthly_payment"></h4>
+      </div>
+    </section>
+  </body>
+ 
+  <title></title>
+ 
+  <script
+    type="text/javascript"
+    src="./jasmine/lib/jasmine-3.10.1/jasmine.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./jasmine/lib/jasmine-3.10.1/jasmine-html.js"
+  ></script>
+  <script src="./jasmine/lib/jasmine-3.10.1/boot0.js"></script>
+
+  <script src="./jasmine/lib/jasmine-3.10.1/boot1.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
+  <script type = 'text/javascript' src="calculator-test.js"></script>
+</html>
